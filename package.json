@@ -1,6 +1,6 @@
 {
   "name": "@savignano/use-flex",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Use component props to define flex css.",
   "repository": {
     "type": "git",
