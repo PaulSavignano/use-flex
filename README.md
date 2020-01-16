@@ -1,8 +1,8 @@
-<h1 align="center">use-flex</h1>
+<h1 align="center">Use Flex</h1>
 
 <div align="center">
 
-Use flex css with component props.
+Use component props to define flex css.
 
 [![NPM Version](https://img.shields.io/npm/v/use-flex.svg?style=flat)](https://www.npmjs.com/package/use-flex)
 [![NPM Downloads](https://img.shields.io/npm/dm/use-flex.svg?style=flat)](https://npmcharts.com/compare/use-flex?minimal=true)
@@ -20,6 +20,7 @@ use-flex is a JavaScript library for styling user interfaces.
 
 * **Declarative:** Define the styles you need and enjoy the benefit of cached css without the cost of inline style redefinition.
 * **Flexible:** No pun intended.  Props that do not have css definitions will be inline styled.  You may also pass a style prop.  Have a className you'd like incorporated?  Pass in a className prop and have it concatenated.
+* **Powerful:** Have your own css classes?  Pass a customMapping object and serve your own css with component props.
 <br />
 
 ## Installation
@@ -58,7 +59,7 @@ ReactDOM.render(<App />, document.querySelector('#app'));
 ```
 
 ## Examples
-[Codesandbox](https://codesandbox.io/s/use-flex-m2ovj?fontsize=14)
+[Codesandbox](https://codesandbox.io/s/use-flex-4rhj7?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Contributing
 - see CONTRIBUTING.md
