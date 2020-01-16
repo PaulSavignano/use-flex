@@ -28,7 +28,6 @@
     "*.d.ts",
     "dist"
   ],
-  "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "export NODE_ENV=production && rollup -c",
