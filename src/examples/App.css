@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.App p {
+  margin: 4px
+}
+
+.color {
+  color: blue
+}
+
+.font-size-24 {
+  font-size: 24px
+}

@@ -62,4 +62,3 @@ ReactDOM.render(<App />, document.querySelector('#app'));
 
 ## Contributing
 - see CONTRIBUTING.md
-# use-flex
