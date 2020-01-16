@@ -8,7 +8,7 @@ import typescript from '@rollup/plugin-typescript'
 const env = process.env.NODE_ENV
 
 export default {
-  input: 'src/lib/index.js',
+  input: 'src/lib/index.tsx',
   output: {
     file: 'dist/index.js',
     format: 'cjs'
