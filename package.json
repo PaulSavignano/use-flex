@@ -1,6 +1,6 @@
 {
   "name": "@savignano/use-flex",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "Use component props to define flex css.",
   "repository": "https://github.com/PaulSavignano/use-flex.git",
   "author": "Paul Savignano <paul.savignano@gmail.com> (http://github.com/PaulSavignano)",
@@ -20,7 +20,7 @@
   },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
-  "types": "dist/index.d.ts",
+  "types": "index.d.ts",
   "files": [
     "dist"
   ],
