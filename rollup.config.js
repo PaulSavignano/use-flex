@@ -2,8 +2,8 @@ import commonjs from '@rollup/plugin-commonjs';
 import nodeResolve from '@rollup/plugin-node-resolve';
 import postcss from 'rollup-plugin-postcss'
 import replace from '@rollup/plugin-replace';
-import { uglify } from 'rollup-plugin-uglify';
 import typescript from '@rollup/plugin-typescript'
+import { uglify } from 'rollup-plugin-uglify';
 
 const env = process.env.NODE_ENV
 
@@ -23,8 +23,8 @@ export default {
       minimize: true,
       sourceMap: 'inline',
     }),
-    typescript(),
     nodeResolve(),
+    typescript(),
     replace({ 'process.env.NODE_ENV': JSON.stringify(env) }),
     commonjs(),
     uglify()

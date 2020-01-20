@@ -1,11 +1,10 @@
 {
   "name": "@savignano/use-flex",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Use component props to define flex css.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/PaulSavignano/use-flex.git"
-  },
+  "repository": "https://github.com/PaulSavignano/use-flex.git",
+  "author": "Paul Savignano <paul.savignano@gmail.com> (http://github.com/PaulSavignano)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/PaulSavignano/use-flex/issues"
   },
@@ -15,17 +14,14 @@
     "React Hooks",
     "Css flex"
   ],
-  "license": "MIT",
-  "author": "Paul Savignano <paul.savignano@gmail.com> (http://github.com/PaulSavignano)",
   "collective": {
     "type": "opencollective",
     "url": "https://opencollective.com/PaulSavignano"
   },
   "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "index.d.ts",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "*.d.ts",
     "dist"
   ],
   "scripts": {
@@ -58,7 +54,7 @@
       "!src/lib/**/__tests__/**/*.js"
     ]
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
