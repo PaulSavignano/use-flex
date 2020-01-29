@@ -28,6 +28,7 @@ const classNameMap: ClassNameMap = {
   },
   flexFlow: {
     'column wrap': 'flex-flow-column-wrap-reverse',
+    'row nowrap': 'flex-flow-row-nowrap',
     'row wrap': 'flex-flow-row-wrap',
     'row wrap-reverse': 'flex-flow-row-wrap-reverse',
     column: 'flex-flow-column',

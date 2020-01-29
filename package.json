@@ -55,7 +55,7 @@
       "!src/lib/**/__tests__/**/*.js"
     ]
   },
-  "peerDependencies": {
+  "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },

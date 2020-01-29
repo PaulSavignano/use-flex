@@ -7,6 +7,11 @@ export interface Props {
   [key: string]: any | object
 }
 
+export interface ClassesAndStyles {
+  className: string,
+  style: { [key: string]: any }
+}
+
 
 function useFlex(props: Props, customMapping: Props = {}) {
   return useMemo(() => {
@@ -31,7 +36,7 @@ function useFlex(props: Props, customMapping: Props = {}) {
         className: props.className ? `use-flex ${props.className}` : 'use-flex',
         style: {}
       })
-    return classesAndStyles
+    return classesAndStyles as ClassesAndStyles
   }, [customMapping, props])
 }
 
